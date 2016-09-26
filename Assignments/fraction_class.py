@@ -1,5 +1,8 @@
 """
 Andrew Bomer
+Email: bomer.andrew@yahoo.com
+Assignment: Homework 2 - Fraction class
+Due: 26 Sep @ 1:00 p.m.
 """
 class fraction(object):
     def __init__(self,n=None,d=None):
