@@ -64,6 +64,13 @@ class ShiftCipher(object):
 	def getShift(self):
 		return self.shift
 		
+	"""
+	@Name: cleanData
+	@Description: This takes the message from the user and "cleans" the message by taking out spaces and non letter characters,
+	and makes all the characters capitols.
+	@Params:
+		None
+	"""
 	def cleanData(self):
 		self.cleanText = ''
 		AlphaNumeric = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5','6','7','8','9']
